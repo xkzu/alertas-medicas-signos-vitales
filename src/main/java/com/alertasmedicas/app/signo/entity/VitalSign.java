@@ -16,7 +16,8 @@ import lombok.ToString;
 @Setter
 @ToString
 @Entity
-@Table(name = "signo_vital")
+@Table(name = "signo_vital", schema = "admin")
+
 @NoArgsConstructor
 @AllArgsConstructor
 public class VitalSign {
